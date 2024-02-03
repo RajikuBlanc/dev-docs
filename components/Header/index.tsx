@@ -6,14 +6,9 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link href="/">
-        <Image
-          src="/logo.svg"
-          alt="SIMPLE"
-          className={styles.logo}
-          width={348}
-          height={133}
-          priority
-        />
+        <h1 className="font-bold text-gray-300 transition duration-700  hover:text-gray-600">
+          Dev Docs
+        </h1>
       </Link>
     </header>
   );
